@@ -13,9 +13,9 @@ plugins:
   - jekyll-seo-tag
   - jemoji
 author:
-  name: Matt Swanson
-  email: matt@mdswanson.com
-  url: mdswanson.com
-title: Matt Swanson's Blog
+  name: Suprcode
+  email: hello@Suprcode.com
+  url: Suprcode.com
+title: Suprcode's Blog
 feed:
   path: atom.xml
