@@ -1,10 +1,13 @@
 ﻿---
 layout: post
 title: "Markdown Cheatsheet"
+subtitle: "Updated March 2015"
 categories:
 - blog
 tags:
-- writeup
+- growth
+skip_footer: true
+permalink: "/cheatsheet/"
 ---
 
 # H1
