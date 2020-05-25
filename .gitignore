@@ -2,3 +2,6 @@ _site/
 .DS_Store
 .*.swp
 .idea
+/.vs/suprcode.github.io/config/applicationhost.config
+/.vs/slnx.sqlite
+/.vs/suprcode.github.io/v16/.suo
