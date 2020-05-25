@@ -5,7 +5,7 @@ subtitle: "Updated March 2015"
 categories:
 - blog
 tags:
-- growth
+- temp
 skip_footer: true
 permalink: "/cheatsheet/"
 ---

@@ -1,10 +1,9 @@
-- name: Growth
+- name: Temp
   desc: |
-    The journey towards senior engineer, with an emphasis on soft 
-    skills &amp; professional growth
-  tag_name: growth
+    Temp description
+  tag_name: temp
 
-- name: Delightful Products
+- name: Test
   desc: |
-    Thoughts on building simple products that people love
-  tag_name: delightful_products
+    Test Series
+  tag_name: test
