@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\archive",
-    "\\legal",
-    "\\static",
-    "\\talks",
+    "\\assets",
+    "\\assets\\css",
     "\\_data",
     "\\_includes",
     "\\_layouts",
-    "\\_pages",
     "\\_posts"
   ],
-  "SelectedNode": "\\CNAME",
+  "SelectedNode": "\\_posts\\2013-08-12-another-sample.md",
   "PreviewInSolutionExplorer": false
 }
