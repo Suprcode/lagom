@@ -1,39 +1,12 @@
-<footer>
-  <div id="bio">
-    <div id="bio-image">
-      <img src="/static/#.jpg" alt="">
-    </div>
-    
-    <div id="bio-text">
-      <p>Hi.</p>
-      
-      <div id="bio-social">
-        {% include social.html %}
-      </div>
-    </div>
-  </div>
+<div class="disclaimer">
+  {% if site.data.theme.show_disclaimer %}
+  <p>
+    The postings on this site are my own and don't necessarily represent my 
+    employer’s positions, strategies or opinions.
+  </p>
+  {% endif %}
 
-  {% unless page.skip_related %}
-  <aside>
-    <h3>Further reading</h3>
-    <ul class="posts">
-      {% if page.tags %}
-        {% assign sn = page.tags.first %}
-        {% for post in site.tags[sn] limit:3 %}
-          {% unless page.title == post.title %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endunless %}
-        {% endfor %}
-      {% else %}
-        {% for post in site.related_posts limit:3 %}
-          {% unless page.title == post.title %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-    </ul>
-  </aside>
-  {% endunless %}
-</footer>
-
-{% include fine-print.html %}
+  <p>
+    © {{ site.data.theme.name }}, {{ 'now' | date: "%Y" }} &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom">Lagom theme</a>
+  </p>
+</div>

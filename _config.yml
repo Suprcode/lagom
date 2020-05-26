@@ -1,21 +1,5 @@
-url: https://mdswanson.com
+# General Jekyll Config
+highlighter: rouge
+url: http://example.com
 lsi: false
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-exclude:
-  ["CNAME", "README.md", "Rakefile", "generate.rb", "Gemfile", "Gemfile.lock"]
-include: ["_pages"]
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jemoji
-author:
-  name: Suprcode
-  email: hello@Suprcode.com
-  url: Suprcode.com
-title: Suprcode's Blog
-feed:
-  path: atom.xml
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

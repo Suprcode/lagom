@@ -1,9 +1,0 @@
-- name: Temp
-  desc: |
-    Temp description
-  tag_name: temp
-
-- name: Test
-  desc: |
-    Test Series
-  tag_name: test
