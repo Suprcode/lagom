@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -19,19 +19,22 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {% include sidebar.html %}
-    </div>
+    <div class="container">
 
-    <div class="eleven columns content">
-      {{ content }}
+        {% if page.show_sidebar %}
+        <div class="four columns sidebar">
+            {% include sidebar.html %}
+        </div>
+        {% endif %}
 
-      <div class="footer">
-        {% include footer.html %}
-      </div>
+        <div class="eleven columns content">
+            {{ content }}
+
+            <div class="footer">
+                {% include footer.html %}
+            </div>
+        </div>
     </div>
-  </div>
 
 {% include analytics.html %}
 </body>
