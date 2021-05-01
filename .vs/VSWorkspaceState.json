@@ -4,10 +4,12 @@
     "\\assets",
     "\\assets\\css",
     "\\_data",
+    "\\_drafts",
     "\\_includes",
+    "\\_includes\\css",
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_includes\\sidebar.html",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }
