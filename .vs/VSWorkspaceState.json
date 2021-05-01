@@ -3,13 +3,8 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\_data",
-    "\\_drafts",
-    "\\_includes",
-    "\\_includes\\css",
-    "\\_layouts",
-    "\\_posts"
+    "\\_includes"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\Local settings (.vs)",
   "PreviewInSolutionExplorer": false
 }
